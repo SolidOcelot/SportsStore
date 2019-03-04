@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/bootstrap.css" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .input-validation-error {border-color: red; background-color: #fee; }
+    </style>
+    <script asp-src-include="lib/jquery/dist/jquery.js"></script>
+    <script asp-src-include="lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script asp-src-include="lib/jquery-validation-unobtrusive/jquery.validation.unobtrusive.js"></script>
+</head>
+<body class="panel panel-default">
+    <div class="panel-heading">
+        <h4>
+            @ViewBag.Title
+            <a class="btn btn-sm btn-primary pull-right" asp-action="Logout" asp-controller="Account">Log Out</a>
+            <a class="btn btn-sm btn-primary pull-right" style="margin-right:10px;" asp-action="List" asp-controller="Order">Orders</a>
+            <a class="btn btn-sm btn-primary pull-right" style="margin-right:10px;" asp-action="List" asp-controller="Product">Products</a>
+        </h4>
+    </div>
+    <div class="panel-body">
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+        @RenderBody()
+    </div>
+</body>
+</html>

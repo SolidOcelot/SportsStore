@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netCore8_SportsShop", "netCore8_SportsShop\netCore8_SportsShop.csproj", "{CA198ABE-D888-4EF3-A4B2-283764CB502B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9FE60D65-9450-4888-9DA9-BFC049FA7B50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netCore8_SportsShop.Tests", "test\netCore8_SportsShop.Tests\netCore8_SportsShop.Tests.csproj", "{374B4E8A-4F2E-4066-AB48-2227F575431B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA198ABE-D888-4EF3-A4B2-283764CB502B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA198ABE-D888-4EF3-A4B2-283764CB502B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA198ABE-D888-4EF3-A4B2-283764CB502B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA198ABE-D888-4EF3-A4B2-283764CB502B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374B4E8A-4F2E-4066-AB48-2227F575431B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374B4E8A-4F2E-4066-AB48-2227F575431B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374B4E8A-4F2E-4066-AB48-2227F575431B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374B4E8A-4F2E-4066-AB48-2227F575431B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{374B4E8A-4F2E-4066-AB48-2227F575431B} = {9FE60D65-9450-4888-9DA9-BFC049FA7B50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDE1EC55-E6B1-462A-B18B-64A16A07BA25}
+	EndGlobalSection
+EndGlobal

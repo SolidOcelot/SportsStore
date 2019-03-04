@@ -1,0 +1,11 @@
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.AssemblyInfo.cs
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\bin\Debug\netcoreapp2.0\netCore8_SportsShop.deps.json
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\bin\Debug\netcoreapp2.0\netCore8_SportsShop.runtimeconfig.json
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\bin\Debug\netcoreapp2.0\netCore8_SportsShop.runtimeconfig.dev.json
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\bin\Debug\netcoreapp2.0\netCore8_SportsShop.dll
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\bin\Debug\netcoreapp2.0\netCore8_SportsShop.pdb
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.dll
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.pdb
+C:\Users\Alex\source\repos\netCore8_SportsShop\netCore8_SportsShop\obj\Debug\netcoreapp2.0\netCore8_SportsShop.csprojAssemblyReference.cache

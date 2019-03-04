@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" asp-href-include="lib/bootstrap/dist/css/bootstrap.css" />
+    @*<link rel="stylesheet" asp-href-include=""/>*@
+    <title>SportsShop</title>
+</head>
+<body>
+    <div style="background-color:black;" class="navbar navbar-invere" role="navigation">
+        <a style="color:grey;" class="navbar-brand" href="#"><strong>SPORTS SHOP</strong></a>
+        <a asp-action="ToAdminController" style="color:white; padding-left:700px;" class="navbar-brand"><strong>To AdminPanel</strong></a>
+        <div class="pull-right">
+            @await Component.InvokeAsync("CartSummary")
+        </div>
+    </div>
+    <div class="row panel">
+        <div id="categories" class="col-xs-3">
+            @await  Component.InvokeAsync("NavigationMenu")
+        </div>
+        <div class="col-xs-8">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
